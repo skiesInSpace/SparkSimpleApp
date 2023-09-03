@@ -1,7 +1,7 @@
-package sample
+package sample.other
 
-import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
+import org.apache.spark.{SparkConf, SparkContext}
 
 object StackOverExample {
   case class Department(id: String, name: String)
