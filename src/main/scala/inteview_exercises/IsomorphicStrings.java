@@ -10,8 +10,8 @@ No two characters may map to the same character, but a character may map to itse
  */
 public class IsomorphicStrings {
     public static void main(String[] args) {
-        String s1 = "abby";
-        String s2 = "baac";
+        String s1 = "aba";
+        String s2 = "coo";
         System.out.println(isIsomorphic(s1, s2));
     }
 
